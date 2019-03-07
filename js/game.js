@@ -1,33 +1,33 @@
 // NOTE - You must have a level with the name "start".  This is used as the first level in the game.
 
 var game = {
-    music: "98_Lost_Mine.mp3",
-    background_image: "intro-bg.jpg",
+    music: "Mission Impossible Theme Tune.mp3",
+    background_image: "AvengerCell.webp",
     levels: {
 
         start: {
-            message: "You come across a dark cave",
+            message: "You've been  tied upside down  in an off-site  F.I.S prison facility 10 stories below ground for 10 months ",
             choices: [
                 {
-                    text: "Enter the cave",
-                    nextLevel: "cave",
+                    text: "Go with security to torture questioning by the F.I.S Director ",
+                    nextLevel: "corridor",
                 },
 
                 {
-                    text: "Keep on moving",
-                    nextLevel: "field",
+                    text: "Shimee Up the Pole ",
+                    nextLevel: "prisoncell",
                 },
             ]
         },
 
-        cave: {
-            background_image: "fire.gif",
-            music: "Final-Fantasy-7-Boss-Battle.mp3",
-            message: "You come across a fire monster or something!",
+        prisoncell: {
+            background_image: "",
+            music: "tormented-soul-1m45s.mp3",
+            message: "You hide behind the Prison Door",
             choices: [
                 {
-                    text: "Start over",
-                    nextLevel: "start",
+                    text: "You Hide Behind The Prison Door ",
+                    nextLevel: "Heading to Security Office",
                 },
             ]
         },
