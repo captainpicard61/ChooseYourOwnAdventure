@@ -32,8 +32,8 @@ var game = {
             ]
         },
 
-        field: {
-            message: "Some adventurer you are...",
+        corridor: {
+            message: "Some spy you are...",
             choices: [
                 {
                     text: "Start over",
